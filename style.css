@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+body {
+    background: #131313;
+    font-family: 'Yeseva One',sans-serif;
+    color: white;
+    background-size: 100%;
+}
+.container {
+    margin: 0 auto;
+    width: 80%;
+    font-size:16px;
+    display: flex;
+}
+.completed {
+    position: relative;
+    font-style: normal;
+        font-weight: 400;
+        font-size: 27px;
+        line-height: 37px;
+        letter-spacing: -0.07em;
+        text-transform: uppercase;
+        color: #E3B873;
+        left: 180px;
+        top: 200px;
+}
+header {
+    position: relative;
+    display: flex;
+}
+.only {
+    color: white;
+    font-family: 'Nunito ',sans-serif;
+    position: relative;
+    display: flex;
+    font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 27px;
+        left: 180px;
+        top: 220px;
+}
+.city {
+    position: relative;
+    text-transform: uppercase;
+        color: #E3B873;
+        top: 240px;
+        font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 25px;
+            text-transform: uppercase;
+        left: 180px;
+}
+.apartement {
+    position: relative;
+    text-transform: uppercase;
+        color: #E3B873;
+        top: 197px;
+        left:360px ;
+        font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 25px;
+            text-transform: uppercase;
+}
+.repair {
+    position: relative;
+    text-transform: uppercase;
+        color: #E3B873;
+        top: 310px;
+        left: 180px;
+        font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 25px;
+            text-transform: uppercase;
+}
+.cost {
+    position: relative;
+    text-transform: uppercase;
+        color: #E3B873;
+                top: 267px;
+                    left: 360px;
+                    font-style: normal;
+                        font-weight: 400;
+                        font-size: 18px;
+                        line-height: 25px;
+                        text-transform: uppercase;
+}
+.rostov {
+    font-family: 'Nunito ',sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 21px;
+        color: #FFFFFF;
+        position: absolute;
+        left: 180px;
+        top: 500px;
+}
+.m {
+        font-family: 'Nunito ', sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 13px;
+            line-height: 21px;
+            color: #FFFFFF;
+            position: absolute;
+            left: 360px;
+            top: 500px;
+}
+.month {
+            font-family: 'Nunito ', sans-serif;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 13px;
+                line-height: 21px;
+                color: #FFFFFF;
+                position: absolute;
+                left: 180px;
+                top: 650px;
+}
+.upon {
+                font-family: 'Nunito ', sans-serif;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 13px;
+                    line-height: 21px;
+                    color: #FFFFFF;
+                    position: absolute;
+                    left: 360px;
+                    top: 650px;
+                    white-space: nowrap;
+}
+.navigation-slider {
+    margin: 0;
+    position: relative;
+    list-style-type: none;
+    top: -220px;
+    left: 700px;
+}
+.navigation-slider li{
+    display: inline;
+    margin-right:40px ;
+}
+.nav1 {
+    text-decoration: underline;
+    transition: 0.3s;
+    color: #E3B873;
+}
+.nav2 {
+    transition:0.3s ;
+    color: rgba(255, 255, 255, 0.3);
+}
+.nav3 {
+    transition: 0.3s;
+    color: rgba(255, 255, 255, 0.3);
+}
+.nav2:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    transition: 0.3s;
+    color: #E3B873;
+}
+.nav3:hover {
+    text-decoration: underline;
+    cursor: pointer;
+        transition: 0.3s;
+            color: #E3B873;
+}
+.circle1 {
+    transition: 0.4s;
+    width: 10px;
+    height: 10px;
+    position: relative;
+    background-color: white;
+    border-radius: 30px;
+}
+.circle2 {
+    transition: 0.4s;
+    width: 10px;
+    height: 10px;
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 30px;
+    margin-left:25px ;
+    top: -10px;
+}
+.circle3 {
+    transition:0.4s;
+    width: 10px;
+    height: 10px;
+    position: relative;
+    background-color:rgba(255, 255, 255, 0.3);
+    border-radius: 30px;
+    top: -19px;
+    margin-left: 50px;
+}
+.circles {
+    position: relative;
+    top: 370px;
+    left: 280px;
+}
+.circle1:hover {
+    transition: 0.4s;
+    cursor: pointer;
+    background-color: #FFFFFF;
+}
+.circle2:hover {
+        transition: 0.4s;
+            cursor: pointer;
+            background-color: #FFFFFF;
+}
+.circle3:hover {
+        transition: 0.4s;
+            cursor: pointer;
+            background-color: #FFFFFF;
+}
+.vector1 {
+    position: relative;
+    top: 338px;
+    left: 370px;
+}
+.vector2 {
+        position: relative;
+            top: 338px;
+            left: 160px;
+}
+.image {
+    background-image: url(image/image\ 2.1.svg);
+    position: relative;
+    top: -220px;
+    left: 710px;
+    width: 679px;
+    height: 482px;
+
+}
+@media only screen and (width: 992px) {
+    .container {
+        width: 60%;
+        margin: 0;
+    }
+}
